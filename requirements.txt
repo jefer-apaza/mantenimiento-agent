@@ -1,0 +1,10 @@
+# Versiones ligeras para baja RAM
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+sqlalchemy==2.0.23
+aiofiles==23.2.0
+python-multipart==0.0.6
+ollama==0.1.2
+streamlit==1.28.0
+jinja2==3.1.2

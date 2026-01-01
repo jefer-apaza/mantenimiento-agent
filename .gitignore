@@ -1,0 +1,134 @@
+# Entorno virtual de Python
+venv/
+ENV/
+env/
+venv*/
+.env
+.env.local
+.env.production
+.env.development
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos de IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+data/knowledge_base.db  # No subir la base de datos con datos
+
+# Logs y registros
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Archivos de Streamlit
+.streamlit/
+
+# Archivos de configuración local
+config/local.yaml
+config/local.json
+
+# Modelos de Ollama (MUY grandes, no subir)
+models/
+*.bin
+*.gguf
+*.pth
+*.safetensors
+
+# Archivos temporales
+*.tmp
+*.temp
+.temp/
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+
+# Archivos de documentación generada
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Archivos de cobertura
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de Sphinx
+docs/_build/
+
+# Archivos de mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archivos de Pyre
+.pyre/
+
+# Archivos específicos del proyecto
+data/            # Pero mantenemos la estructura
+knowledge_base/  # Pero mantenemos archivos .json de ejemplo
+logs/            # Estructura vacía
+
+# Excepciones importantes (NO ignorar estos)
+!knowledge_base/equipos.json
+!knowledge_base/fallas.json
+!knowledge_base/procedimientos.json
+!data/.gitkeep
+!logs/.gitkeep
